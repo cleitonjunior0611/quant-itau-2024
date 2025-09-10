@@ -1,22 +1,22 @@
-# 📈 Predição do IBOVESPA com LSTM e Análise Técnica
+# 📈 IBOVESPA Prediction with LSTM and Technical Analysis
 
-Este projeto implementa um modelo de redes neurais recorrentes (LSTM) para prever os preços do **IBOVESPA** utilizando dados históricos do Yahoo Finance.  
-Além da previsão, são aplicados **indicadores técnicos (RSI)** para gerar **sinais de compra e venda**, simulando operações de trading com cálculo de capital acumulado.
+This project implements a **recurrent neural network (LSTM)** model to predict **IBOVESPA** prices using historical data from Yahoo Finance.  
+In addition to the predictions, **technical indicators (RSI)** are applied to generate **buy and sell signals**, simulating trading operations with cumulative capital calculation.
 
-## ⚙️ Funcionalidades
+## ⚙️ Features
 
-- 📊 **Download automático** de dados históricos do IBOVESPA via `yfinance`
-- 🔄 **Pré-processamento** dos dados com normalização e criação de janelas temporais
-- 🧠 **Modelo LSTM otimizado** para previsão de séries temporais financeiras
-- 📉 **Indicador RSI** para identificar condições de sobrecompra e sobrevenda
-- 💰 **Simulação de operações de trading**, com taxa de venda e evolução do capital
-- 📈 **Visualizações gráficas**:
-  - Preço real x preço previsto
-  - Sinais de compra e venda
-  - Evolução do capital após cada operação
-  - Curva de perda (treinamento vs validação)
+- 📊 **Automatic download** of historical IBOVESPA data via `yfinance`
+- 🔄 **Data preprocessing** with normalization and creation of time windows
+- 🧠 **Optimized LSTM model** for financial time series prediction
+- 📉 **RSI indicator** to identify overbought and oversold conditions
+- 💰 **Trading simulation**, including selling fees and capital evolution
+- 📈 **Graphical visualizations**:
+  - Real price vs predicted price
+  - Buy and sell signals
+  - Capital evolution after each operation
+  - Loss curve (training vs validation)
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
 - [Python 3.9+](https://www.python.org/)
 - [TensorFlow / Keras](https://www.tensorflow.org/)
@@ -26,3 +26,4 @@ Além da previsão, são aplicados **indicadores técnicos (RSI)** para gerar **
 - [numpy](https://numpy.org/)
 - [matplotlib](https://matplotlib.org/)
 - [ta (Technical Analysis)](https://technical-analysis-library-in-python.readthedocs.io/)
+
